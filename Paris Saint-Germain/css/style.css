@@ -1,0 +1,29 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+ 
+body { 
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1, h2, h3 { 
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+} 
+
+a {
+  text-decoration: none;
+}
+
+/* Effets de survol pour les liens */
+a:hover {
+    color: mediumblue; /* Changement de couleur du texte au survol */
+    text-decoration: underline; /* Soulignement au survol */
+    background-color: darkred; /* Changement de fond au survol */
+
+}
